@@ -1,5 +1,6 @@
 using CinemaTicketingSystem.Application.Contracts.Catalog.Movie;
 using CinemaTicketingSystem.Application.Contracts.Catalog.Movie.Create;
+using CinemaTicketingSystem.Application.Test.core;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 

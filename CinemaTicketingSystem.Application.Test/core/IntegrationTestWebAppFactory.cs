@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Testcontainers.MsSql;
 
-namespace CinemaTicketingSystem.Application.Test
+namespace CinemaTicketingSystem.Application.Test.core
 {
     public class IntegrationTestWebAppFactory : WebApplicationFactory<Program>, IAsyncLifetime
     {

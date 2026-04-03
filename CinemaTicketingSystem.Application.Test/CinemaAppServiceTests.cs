@@ -2,6 +2,7 @@
 using CinemaTicketingSystem.Application.Contracts;
 using CinemaTicketingSystem.Application.Contracts.Catalog.Cinema;
 using CinemaTicketingSystem.Application.Contracts.Catalog.Cinema.Hall;
+using CinemaTicketingSystem.Application.Test.core;
 using CinemaTicketingSystem.Domain.BoundedContexts.Catalog;
 using CinemaTicketingSystem.SharedKernel;
 using CinemaTicketingSystem.SharedKernel.ValueObjects;

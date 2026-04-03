@@ -1,4 +1,5 @@
 ﻿using CinemaTicketingSystem.Application.Contracts.Contracts;
+using CinemaTicketingSystem.Application.Test.core;
 using CinemaTicketingSystem.Infrastructure.Persistence;
 using CinemaTicketingSystem.SharedKernel;
 using Microsoft.Extensions.DependencyInjection;

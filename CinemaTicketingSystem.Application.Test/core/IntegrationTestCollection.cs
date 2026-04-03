@@ -1,4 +1,4 @@
-namespace CinemaTicketingSystem.Application.Test;
+namespace CinemaTicketingSystem.Application.Test.core;
 
 [CollectionDefinition(Name)]
 public class IntegrationTestCollection : ICollectionFixture<IntegrationTestWebAppFactory>
