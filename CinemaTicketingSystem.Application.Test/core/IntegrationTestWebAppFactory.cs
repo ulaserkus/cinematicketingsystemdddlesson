@@ -15,14 +15,8 @@ namespace CinemaTicketingSystem.Application.Test
 {
     public class IntegrationTestWebAppFactory : WebApplicationFactory<Program>, IAsyncLifetime
     {
-        private const string Password = "yourStrong(!)Password";
-        private const ushort MsSqlPort = 1445;
-
         private readonly MsSqlContainer _mssqlContainer = new MsSqlBuilder()
             .WithImage("mcr.microsoft.com/mssql/server:2022-latest")
-            .WithPortBinding(MsSqlPort)
-            .WithEnvironment("ACCEPT_EULA", "Y")
-            .WithEnvironment("MSSQL_SA_PASSWORD", Password)
             .Build();
 
 

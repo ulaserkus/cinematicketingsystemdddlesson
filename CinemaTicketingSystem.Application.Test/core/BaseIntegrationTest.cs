@@ -5,7 +5,8 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace CinemaTicketingSystem.Application.Test
 {
-    public class BaseIntegrationTest : IClassFixture<IntegrationTestWebAppFactory>, IDisposable
+    [Collection(IntegrationTestCollection.Name)]
+    public class BaseIntegrationTest : IDisposable
     {
         private readonly IServiceScope _scope;
 
