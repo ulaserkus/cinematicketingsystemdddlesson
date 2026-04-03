@@ -1,10 +1,8 @@
-﻿using CinemaTicketingSystem.Application.Contracts.Contracts;
-using CinemaTicketingSystem.Application.Test.core;
-using CinemaTicketingSystem.Infrastructure.Persistence;
+﻿using CinemaTicketingSystem.Infrastructure.Persistence;
 using CinemaTicketingSystem.SharedKernel;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CinemaTicketingSystem.Application.Test
+namespace CinemaTicketingSystem.Application.Test.core
 {
     [Collection(IntegrationTestCollection.Name)]
     public class BaseIntegrationTest : IDisposable

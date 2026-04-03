@@ -5,6 +5,7 @@ using CinemaTicketingSystem.Domain.BoundedContexts.Ticketing.ValueObjects;
 using CinemaTicketingSystem.SharedKernel;
 using CinemaTicketingSystem.SharedKernel.Exceptions;
 using CinemaTicketingSystem.SharedKernel.ValueObjects;
+using FluentAssertions;
 
 #endregion
 
@@ -123,6 +124,8 @@ public class TicketIssuanceTests
         ticketIssuance.RemoveTicket(seatPosition);
 
         // Assert
+
+        ticketIssuance.TicketList.Should().BeEmpty();
         Assert.Empty(ticketIssuance.TicketList);
     }
 
